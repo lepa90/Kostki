@@ -24,4 +24,4 @@ data = [Bar(x=x_values, y=frequiences)]
 x_axis_config = {'title': 'Wynik', 'dtick': 1}
 y_axis_config = {'title': 'Częstotliwosc wystepowania wartosci'}
 my_layout = Layout(title='Wynik rzucania pojedyncza koscia D6 tysiac razy', xaxis=x_axis_config, yaxis=y_axis_config)
-offline.plot({'data': data, 'layout': my_layout}, filename='d6.html')
+offline.plot({'data': data, 'layout': my_layout}, filename='d2x6.html')
